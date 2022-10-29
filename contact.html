@@ -31,10 +31,21 @@
             <h2>Programador e Guia de Turismo</h2>
         </header>
     <form class="contact-form" action="https://formsubmit.co/8c26fdda91f08fe2c91cf804a3963cbd" method="post">
-        <label for="email">E-mail</label>
-        <input type="email" name="email" id="email" required>
-        <label for="message">Mensagem</label>
-        <input type="text" name="message" id="message" required>
+        <div class="topic-text">Envie sua mensagem</div>
+                <p class="paragraph">
+                  Se você tiver algum trabalho ou qualquer tipo de dúvida relacionado ao nosso site, você pode nos enviar uma mensagem aqui. É um prazer ajudá-lo.
+                </p>
+          
+                  <div class="input-box">
+                    <input type="text" placeholder="Digite seu nome" required>
+                  </div>
+                  <div class="input-box">
+                    <input type="text" placeholder="Digite seu email" required>
+                  </div>
+                  <div class="input-box message-box">
+                    <textarea placeholder="Digite sua mensagem"></textarea>
+                  </div>
+                  <br>
         <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
         <button type="submit">Enviar</button>
     </form>

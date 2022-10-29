@@ -106,3 +106,40 @@ button:hover{
     color: white;
     height: 32px;
 }
+
+.paragraph{
+    font-size: 13px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.topic-text{
+    font-size: 15px;
+    font-weight: 600;
+    color: aqua;
+  }
+
+.input-box{
+    height: 115px;
+    width: 100%;
+    margin: 8px auto;
+  }
+
+.input-box input, .input-box textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    background: #F0F1F8;
+    border-radius: 6px;
+    padding: 5px 10px;
+    resize: none;
+  }
+.message-box{
+    min-height: 150px;
+  }
+ .input-box textarea{
+    padding-top: 6px;
+  }
